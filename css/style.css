@@ -66,8 +66,9 @@ p {
     border: none;
 }
 .container{
-    max-width: 1440px;
+    max-width: 1470px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .ml-24{
     margin-left: 24px;
@@ -305,6 +306,7 @@ p {
 .play-instantly .play-content{
     text-align: right;
 }
+.play-instantly-2 .play-content h2, 
 .play-instantly .play-content h2{
     margin-bottom: 24px;
 }
@@ -493,3 +495,301 @@ p {
     font-size: 1rem;
 }
 /*-- footer-section-end --*/
+.desplay{
+    display: none;
+}
+
+@media screen and (max-width: 575.98px) {
+    .nav-section {
+        box-shadow: none;
+    }
+    .nav-main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-main .nav-menu {
+        display: block;
+        text-align: center;
+    }
+    .nav-main .nav-menu li {
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+    .nav-main .nav-logo a{
+        margin-bottom: 30px;
+    }
+    .banner-section .banner {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .banner-content {
+        margin-top: 55px;
+    }
+
+    .banner-section .banner .banner-content #btn-2 {
+    margin-left: 4px;
+    }
+    .about-us .about{
+        flex-wrap: wrap;
+    }
+    .about-us .about .about-contant {
+        text-align: center;
+    }
+    .online-game-section .online-games {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .online-game-section .online-games .online-single-game {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .play-instantly-2, .play-instantly {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .play-instantly .play-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-instantly .play-img .play-main-img {
+        margin-left: 0;
+        display: flex;
+        width: 100%;
+    }
+    .play-instantly .play-img .position-img {
+        position: relative;
+        top: -6px;
+        left: 0px;
+        text-align: center;
+    }
+    .play-instantly-2 .play-content {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .play-instantly-2 .play-img .play-main-img {
+        margin-right: 0;
+        display: flex;
+        width: 100%;
+    }
+    .play-instantly-2 .play-img .position-img {
+        position: relative;
+        top: -7px;
+        right: 0px;
+        text-align: center;
+    }
+    .careers-section .careers .careers-contant .career-items {
+        flex-wrap: wrap;
+    }
+    .careers-section .careers .careers-contant .career-items ul.ml-97 {
+        text-align: left;
+        margin-left: 0;
+    }
+    .careers-section {
+        background-position: bottom;
+        background-size: contain;
+        padding-bottom: 280px;
+    }
+    .footer-section .footer-menu ul {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-section .footer-social ul{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-section .footer-bottom-menu ul {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .nav-section {
+        box-shadow: none;
+    }
+    .nav-main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-main .nav-menu li {
+        margin: 0 12px;
+    }
+    .nav-logo {
+        margin-bottom: 20px;
+    }
+    .banner-section .banner {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .banner-content {
+        margin-top: 40px;
+    }
+    .banner-section {
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+    .about-us .about {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .about-us .about .about-contant {
+        text-align: center;
+    }
+    .about-us {
+        background: #fff;
+    }
+    .online-game-section .online-games {
+        justify-content: center;
+        gap: 24px;
+        flex: 1;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .online-game-section .online-games .online-single-game {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .play-instantly-2, .play-instantly {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .play-instantly .play-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-instantly .play-img .play-main-img{
+        width: 100%;
+        margin-left: 0;
+    }
+    section.play-instantly-section {
+        padding: 0 70px;
+    }
+    .play-instantly .play-img .position-img {
+        position: relative;
+        top: -90px;
+        left: -30px;
+    }
+    .play-instantly-2 .play-content {
+        text-align: left;
+        text-align: center;
+    }
+    .play-instantly-2 .play-img .play-main-img {
+        margin-right: 0;
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .play-instantly-2 .play-img .position-img {
+        position: relative;
+        top: -90px;
+        right: -98px;
+    }
+    .careers-section .careers .careers-contant .career-items {
+        flex-wrap: wrap;
+    }
+    .careers-section .careers .careers-contant .career-items ul.ml-97 {
+        margin-left: 25px;
+    }
+    .careers-section {
+        background-position: bottom;
+        background-size: contain;
+        padding-bottom: 410px;
+    }
+    .footer-section .footer-menu ul {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .footer-section .footer-bottom-menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .nav-main .nav-menu li {
+        margin-left: 15px;
+    }
+    .banner-section .banner .banner-content #btn-2 {
+        margin-left: 4px;
+    }
+    .banner-section .banner {
+        padding: 40px 0;
+    }
+    .about-us .about {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .about-us .about .about-contant {
+        text-align: center;
+    }
+    .online-game-section .online-games {
+        justify-content: center;
+        gap: 24px;
+        flex: 1;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .online-game-section .online-games .online-single-game {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .play-instantly-2, .play-instantly {
+        flex-wrap: wrap;
+    }
+    .play-instantly .play-img .play-main-img {
+       margin-left: 0;
+        display: flex;
+    }
+    .play-instantly .play-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-instantly-2 .play-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-instantly-2 .play-img .play-main-img {
+        margin-right: 0;
+    }
+    .play-instantly-2 .play-img .position-img {
+        right: -100px;
+    }
+    .careers-section {
+        background-position: bottom center;
+        background-size: contain;
+        padding-bottom: 420px;
+    }
+    .footer-section .footer-menu ul {
+        gap: 30px;
+    }
+    .footer-section .footer-bottom-menu ul {
+        gap: 30px;
+    }
+    .footer-section .footer-social ul {
+        gap: 30px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
