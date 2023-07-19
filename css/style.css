@@ -788,7 +788,40 @@ p {
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
-    
+    .online-game-section .online-games {
+        justify-content: center;
+        gap: 24px;
+        flex: 1;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .online-game-section .online-games .online-single-game {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .online-game-section .online-games .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .play-instantly-2, .play-instantly {
+        flex-wrap: wrap;
+    }
+    .play-instantly .play-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-us .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-us .about .about-contant {
+        text-align: center;
+    }
+    .play-instantly-2, .play-instantly {
+        display: noneg;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399.98px){
     
