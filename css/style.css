@@ -18,7 +18,14 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-weight: 700; 
     font-size: 3rem;
+    color: var(--hadding);
 } 
+h2 span{
+    background: var(--hadding2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 a:focus,
 button:focus,
 input:focus {
@@ -37,7 +44,6 @@ ul, ol {
 }
   
 p {
-    font-family: 'Poppins', sans-serif;
     color: var(--pcolor);
 }
 :root{
@@ -159,13 +165,37 @@ p {
     margin-left: 24px;
     background-color: #4EC5F7;
 }
-.banner-section .banner .banner-content .banner-img img{
+.banner-section .banner .banner-img img{
     display: flex;
 }
 /*-- header-section-end --*/
 
-/*-- banner-section-start --*/
-/*-- banner-section-end --*/
+/*-- about-us-section-start --*/
+.about-us{
+    padding: 55px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.about-us .about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us .about .about-contant{
+    text-align: right;
+}
+.about-us .about .about-contant p{
+    margin: 24px 0 32px;
+}
+.about-us .about .about-contant h5{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 24px 0 5px;
+}
+.about-us .about .about-contant h4{
+    font-weight: 700;
+    font-size: 2rem;
+}
+/*-- about-us-section-end --*/
 
 /*-- -section-end --*/
 /*-- -section-end --*/
