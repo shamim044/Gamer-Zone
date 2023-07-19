@@ -197,9 +197,95 @@ p {
 }
 /*-- about-us-section-end --*/
 
+/*-- online-games-section-start --*/
+.online-game-section{
+    padding: 120px 0;
+}
+.online-game-section .hadding{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.online-game-section .hadding h2{
+    margin-bottom: 16px;
+}
+.online-game-section .online-games{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex: 1;
+}
+.online-game-section .online-games .online-single-game{
+    transition: .3s;
+}
+.online-game-section .online-games .online-single-game .online-game-img{
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid transparent; */
+}
+.online-game-section .online-games .online-single-game .online-game-img img{
+    display: flex;
+}
+.online-game-section .online-games .online-single-game .online-game-img::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000000b7;
+    border-radius: 16px;
+    transform: scale(.5);
+    visibility: hidden;
+    transition: .3s;
+}
+/* .online-game-section .online-games .online-single-game:hover .online-game-img{
+    border: 2px solid var(--btncolor);
+    border-radius: 18px;
+} */
+.online-game-section .online-games .online-single-game:hover .online-game-img::after{
+    transform: scale(1);
+    visibility: visible;
+}
+.online-game-section .online-games .online-single-game .online-game-img .online-game-play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    visibility: hidden;
+    transition: .3s;
+}
+.online-game-section .online-games .online-single-game:hover .online-game-img .online-game-play{
+    visibility: visible;
+}
+.online-game-section .online-games .online-single-game .online-game-img .online-game-play a{
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.online-game-section .online-games .online-single-game .online-game-img .online-game-play a i{
+    color: var(--btncolor);
+}
+.online-game-section .online-games .online-single-game .online-game-img .online-game-play p{
+    color: var(--btncolor);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.online-game-section .online-games .online-single-game p{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/*-- online-games-section-end --*/
+
 /*-- -section-end --*/
 /*-- -section-end --*/
-/*-- -section-end --*/
-/*-- -section-end --*/
+
 /*-- -section-end --*/
 /*-- -section-end --*/
