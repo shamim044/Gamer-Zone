@@ -499,10 +499,6 @@ section.play-instantly-section {
     text-align: center;
 }
 /*-- footer-section-end --*/
-.desplay{
-    display: none;
-}
-
 @media screen and (max-width: 575.98px) {
     .nav-section {
         box-shadow: none;
