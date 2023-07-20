@@ -220,10 +220,10 @@ p {
     margin-bottom: 16px;
 }
 .online-game-section .online-games{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     gap: 24px;
-    flex: 1;
 }
 .online-game-section .online-games .online-single-game{
     transition: .3s;
@@ -296,6 +296,9 @@ p {
 /*-- online-games-section-end --*/
 
 /*-- play-instantly-section-start --*/
+section.play-instantly-section {
+    overflow-x: hidden;
+}
 .play-instantly-2,
 .play-instantly{
     display: flex;
@@ -493,6 +496,7 @@ p {
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
     font-size: 1rem;
+    text-align: center;
 }
 /*-- footer-section-end --*/
 .desplay{
@@ -537,7 +541,7 @@ p {
         text-align: center;
     }
     .online-game-section .online-games {
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
         justify-content: center;
     }
     .online-game-section .online-games .online-single-game .online-game-img img {
@@ -611,6 +615,9 @@ p {
     .nav-section {
         box-shadow: none;
     }
+    .nav-main .nav-logo a span {
+        margin-left: 5px;
+    }
     .nav-main{
         flex-wrap: wrap;
         justify-content: center;
@@ -647,8 +654,7 @@ p {
     .online-game-section .online-games {
         justify-content: center;
         gap: 24px;
-        flex: 1;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
         padding: 0 100px;
     }
     .online-game-section .online-games .online-single-game .online-game-img img {
@@ -692,7 +698,7 @@ p {
     .play-instantly-2 .play-img .position-img {
         position: relative;
         top: -90px;
-        right: -98px;
+        right: -75px;
     }
     .careers-section .careers .careers-contant .career-items {
         flex-wrap: wrap;
@@ -718,6 +724,9 @@ p {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+    .nav-main .nav-logo a span {
+        margin-left: 2px;
+    }
     .nav-main .nav-menu li {
         margin-left: 15px;
     }
@@ -738,7 +747,7 @@ p {
         justify-content: center;
         gap: 24px;
         flex: 1;
-        flex-wrap: wrap;
+       grid-template-columns: repeat(2, 1fr);
         padding: 0 100px;
     }
     .online-game-section .online-games .online-single-game .online-game-img img {
@@ -772,6 +781,9 @@ p {
     .play-instantly-2 .play-img .position-img {
         right: -100px;
     }
+    /* .play-instantly-2{
+        display: none;
+    } */
     .careers-section {
         background-position: bottom center;
         background-size: contain;
@@ -788,11 +800,13 @@ p {
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .banner-section .banner .banner-content #btn-2 {
+        margin-left: 2px;
+    }
     .online-game-section .online-games {
         justify-content: center;
         gap: 24px;
-        flex: 1;
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
         padding: 0 100px;
     }
     .online-game-section .online-games .online-single-game .online-game-img img {
@@ -809,7 +823,7 @@ p {
         flex-wrap: wrap;
     }
     .play-instantly .play-content {
-        text-align: center;
+        text-align: left;
         margin-bottom: 30px;
     }
     .about-us .about {
@@ -819,10 +833,45 @@ p {
     .about-us .about .about-contant {
         text-align: center;
     }
-    .play-instantly-2, .play-instantly {
-        display: noneg;
+    .play-instantly-2 .play-content {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .play-instantly .play-img .position-img {
+        left: 45px;
+    }
+    .careers-section {
+        background-position: bottom center;
+        background-size: contain;
+        padding-bottom: 480px;
+    }
+    .games .online-single-game .online-game-img img {
+        width: 100%;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399.98px){
-    
+    .online-game-section .online-games {
+        gap: 10px;
+    }
+    .online-game-section .online-games {
+        justify-content: center;
+        gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px;
+    }
+    .online-single-game .online-game-img img {
+        width: 100%;
+    }
+    .play-instantly .play-img .play-main-img {
+        margin-left: 100px;
+    }
+    .play-instantly .play-img .position-img {
+        left: 5px;
+    }
+    .play-instantly-2 .play-img .play-main-img {
+        margin-right: 100px;
+    }
+    .play-instantly-2 .play-img .position-img {
+        right: -240px;
+    }
 }
